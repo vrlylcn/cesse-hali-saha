@@ -8,11 +8,33 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="styles/normalize.css">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles/app.css">
 </head>
 <body>
-  <h1>Cesse Halı Saha Ligi</h1>
+  <div class="topbar">
+    <div class="container">
+      <p class="topbar__date">Pazartesi, 08 Şubat 2016</p>
+      <div class="topbar__call-center">
+        <i class="icon icon-call-center"></i>
+        <span>
+          <p class="topbar__call-center-title">ÇAĞRI MERKEZİ</p>
+          <a href="#" class="topbar__call-center-link">0 850 323 23 23</a>
+        </span>
+      </div>
+      <form class="topbar__login" onsubmit="return false">
+        <input type="text" class="topbar__login-input" placeholder="Takımının Adı">
+        <div class="topbar__login-group">
+          <input type="password" class="topbar__login-input" placeholder="**********">
+          <a href="#" class="topbar__login-forgot-password">
+            <i class="icon icon-forgot-password"></i>
+          </a>
+        </div>
+        <button class="topbar__login-button-submit button button-login" type="sumit">GİRİŞ</button>
+        <a href="#" class="button button-team-create topbar__login-button-create">TAKIMINI KUR!</a>
+      </form>
+    </div>
+  </div>
 
   <script src="scripts/jquery.min.js"></script>
   <script src="scripts/app.js"></script>

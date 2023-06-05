@@ -28,5 +28,144 @@ input[type=number]::-webkit-outer-spin-button {
 body {
   font-size: 16px;
   font-weight: 400;
+  line-height: 1;
   font-family: "Open Sans", sans-serif;
+  background: url("../images/bg-body.jpg") no-repeat center top ;
+}
+
+.container {
+  width: 100%;
+  max-width: 970px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* - Icon Set - */
+.icon {
+  display: inline-block;
+  background: url("../images/sprite.png");
+}
+
+.icon-call-center {
+  width: 30px;
+  height: 31px;
+  background-position: 0 -57px;
+}
+
+.icon-forgot-password {
+  width: 15px;
+  height: 15px;
+  background-position: -31px -57px;
+}
+
+/* - Button Set - */
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  cursor: pointer;
+  background: url("../images/sprite.png");
+}
+
+.button-login {
+  width: 42px; 
+  height: 30px;
+  background-position: -47px -57px;
+}
+
+.button-team-create {
+  width: 105px;
+  height: 30px;
+  background-position: -89px -57px;
+}
+
+/* - Topbar - */
+.topbar {
+  height: 57px;
+  background: url("../images/sprite.png") no-repeat center top;
+}
+
+.topbar .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+}
+
+.topbar__date {
+  margin: 0;
+  color: #c67506;
+  font-size: 12px;
+}
+
+.topbar__call-center {
+  display: flex;
+  margin-right: 14px;
+}
+
+.topbar__call-center .icon {
+  margin-right: 7px;
+}
+
+.topbar__call-center-title {
+  margin: 0;
+  color: #c67506;
+  font-size: 11px;
+}
+
+.topbar__call-center-link {
+  color: #c67506;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.topbar__login {
+  display: flex;
+}
+
+.topbar__login-input {
+  height: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #bf7b1d;
+  font-weight: 700;
+  font-size: 11px;
+  border: 1px solid #c67506;
+  border-radius: 3px;
+}
+
+.topbar__login-input::placeholder {
+  color: inherit;
+  line-height: 30px;
+}
+
+.topbar__login-group {
+  position: relative;
+  margin-left: 7px;
+}
+
+.topbar__login-forgot-password {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  margin-top: -7px;
+}
+
+.topbar__login-button-submit {
+  margin-left: 7px;
+  color: #fae9d2;
+  font-size: 11px;
+  font-weight: 900;
+  text-shadow: 0 1px 0 #8f5506;
+}
+
+.topbar__login-button-create {
+  margin-left: 7px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 900;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #014519;
 }
