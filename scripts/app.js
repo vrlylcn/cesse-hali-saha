@@ -1,3 +1,9 @@
 $(function() {
-  console.log("app started..!");
+
+  /// Header Announcements Marquee
+  $(".js-header-announcements").marquee({
+    speed: 100,
+    pauseOnHover: true
+  });
+
 });
