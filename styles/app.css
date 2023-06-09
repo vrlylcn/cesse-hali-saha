@@ -34,6 +34,7 @@ body {
 }
 
 .container {
+  position: relative;
   width: 100%;
   max-width: 970px;
   margin-left: auto;
@@ -340,4 +341,38 @@ body {
   margin: 0 0 0 10px;;
   color: #444;
   font-size: 12px;
+}
+
+/* - Home Slider - */
+.home-slider .owl-dots {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.home-slider .owl-dots .owl-dot {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5px;
+  width: 25px;
+  height: 25px;
+  border: 1px solid #245277;
+  border-radius: 100%;
+}
+
+.home-slider .owl-dots .owl-dot span {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  background-color: #245277;
+  border-radius: 100%;
+}
+
+.home-slider .owl-dots .owl-dot.active {
+  border-color: #e14242;
+}
+
+.home-slider .owl-dots .owl-dot.active span {
+  background-color: #e14242;
 }
