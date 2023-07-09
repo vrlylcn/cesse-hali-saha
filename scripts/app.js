@@ -7,10 +7,19 @@ $(function() {
   });
 
   /// Home Slider
-  $(".owl-carousel").owlCarousel({
+  $(".js-home-slider").owlCarousel({
     items: 1,
     autoplay: true,
     autoplayHoverPause: true
+  });
+
+  /// Future Matches
+  $(".js-feature-matches").owlCarousel({
+    items: 1,
+    autoplay: true,
+    autoplayHoverPause: true,
+    nav: true,
+    navText: ["", ""]
   });
 
 });
