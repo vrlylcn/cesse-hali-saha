@@ -422,7 +422,7 @@ body {
 .feature-mathces .owl-nav .owl-next {
   width: 20px;
   height: 20px;
-  background-image: url("/images/sprite.png") !important;
+  background-image: url("../images/sprite.png") !important;
 }
 
 .feature-mathces .owl-nav .owl-prev {
@@ -477,7 +477,7 @@ body {
   display: inline-block;
   width: 10px;
   height: 10px;
-  background-image: url("/images/sprite.png");
+  background-image: url("../images/sprite.png");
 }
 
 .feature-matches__item-match-date-icon {
